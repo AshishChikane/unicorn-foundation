@@ -36,7 +36,7 @@ type TreasuryAPI = {
 };
 
 const TREASURY_API =
-  "https://42d82e67a298.ngrok-free.app/v1/arena-token/treasury-tokens";
+  "https://unicorn.pharmaalabs.com/v1/arena-token/treasury-tokens";
 
 // small helpers
 const isValidAddress = (addr?: string) =>
@@ -86,7 +86,7 @@ const Treasury = () => {
     try {
       setLoading(true);
       const res = await fetch(
-        'https://5d6f6842c900.ngrok-free.app/v1/arena-token/treasury-tokens',
+        'https://unicorn.pharmaalabs.com/v1/arena-token/treasury-tokens',
         {
           method: 'GET',
           headers: {

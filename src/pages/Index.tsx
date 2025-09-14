@@ -59,7 +59,7 @@ const Index = () => {
     const fetchTokens = async () => {
       try {
         const res = await fetch(
-          'https://5d6f6842c900.ngrok-free.app/v1/arena-token/treasury-tokens',
+          'https://unicorn.pharmaalabs.com/v1/arena-token/treasury-tokens',
           {
             method: 'GET',
             headers: {
