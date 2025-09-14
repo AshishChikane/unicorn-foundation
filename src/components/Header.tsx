@@ -41,7 +41,7 @@ export default function Header({
           <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center glow-primary">
             <span className="text-white font-bold text-lg">🦄</span>
           </div>
-          <span className="text-xl font-bold text-white">UnicornDAO</span>
+          <span className="text-xl font-bold text-white">Unicorn Foundation</span>
         </Link>
   
         <div className="hidden md:flex items-center space-x-8 ml-2">
