@@ -108,11 +108,12 @@ const App = () => (
       <BrowserRouter>
         <AppLayout>
           <Routes>
-            <Route path="/eerc" element={<Index />} />  {/* Index is now at /eerc */}
+            <Route path="/eerc" element={<Index />} />  
             <Route path="/about" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/treasury" element={<Treasury />} />
             <Route path="/swap" element={<Swap />} />
-            <Route path="/eerc-page" element={<EERC />} /> {/* Changed original EERC to /eerc-page */}
+            <Route path="/eerc-page" element={<EERC />} /> 
             <Route path="/bridge" element={<Bridge />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
